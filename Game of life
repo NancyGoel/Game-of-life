@@ -48,7 +48,7 @@ class Solution {
                    if(board[i][j+1]==1)
                        count++;
                }
-     //next condition
+     
             if(board[i][j]==1)
                 {
                   if(count==2 || count==3)
@@ -64,7 +64,9 @@ class Solution {
         for(int i=0;i<r;i++)
         {
             for(int j=0;j<c;j++)
-                board[i][j]=ar[i][j];              
+                 {
+                board[i][j]=ar[i][j];
+                }
         }
         
     }
